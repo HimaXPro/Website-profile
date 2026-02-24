@@ -1,16 +1,23 @@
 <!DOCTYPE html>
 <html lang="id">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Karier - Perusahaan Maju Sejahtera</title>
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
+
 <body>
     <header>
         <div class="container">
             <div class="logo">
                 <h1>MAJU<span>SEJAHTERA</span></h1>
+            </div>
+            <div class="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
             </div>
             <nav>
                 <ul>
@@ -29,33 +36,42 @@
     <main>
         <div class="container">
             <h2 class="page-title">Pusat Karier</h2>
-            
+
             <div class="grid">
                 <!-- Job Listings -->
                 <div class="card job-listing">
                     <h3>Staff Administrasi</h3>
                     <p><strong>Lokasi:</strong> Jakarta Selatan | <strong>Tipe:</strong> Penuh Waktu</p>
-                    <p style="margin: 10px 0;">Bertanggung jawab atas pengarsipan dokumen, input data, dan korespondensi kantor.</p>
-                    <button class="btn" onclick="document.getElementById('form-section').scrollIntoView({behavior: 'smooth'})">Lamar Sekarang</button>
+                    <p style="margin: 10px 0;">Bertanggung jawab atas pengarsipan dokumen, input data, dan korespondensi
+                        kantor.</p>
+                    <button class="btn"
+                        onclick="document.getElementById('form-section').scrollIntoView({behavior: 'smooth'})">Lamar
+                        Sekarang</button>
                 </div>
-                
+
                 <div class="card job-listing">
                     <h3>Sales Marketing</h3>
                     <p><strong>Lokasi:</strong> Jakarta Selatan | <strong>Tipe:</strong> Penuh Waktu</p>
-                    <p style="margin: 10px 0;">Melakukan pemasaran produk ke distributor dan menjaga hubungan baik dengan klien.</p>
-                    <button class="btn" onclick="document.getElementById('form-section').scrollIntoView({behavior: 'smooth'})">Lamar Sekarang</button>
+                    <p style="margin: 10px 0;">Melakukan pemasaran produk ke distributor dan menjaga hubungan baik
+                        dengan klien.</p>
+                    <button class="btn"
+                        onclick="document.getElementById('form-section').scrollIntoView({behavior: 'smooth'})">Lamar
+                        Sekarang</button>
                 </div>
             </div>
 
             <div style="margin: 30px 0; text-align: center;">
-                <a href="pengumuman.html" style="color: var(--secondary-color); font-weight: bold; text-decoration: underline;">Lihat Pengumuman Hasil Seleksi</a>
+                <a href="pengumuman.html"
+                    style="color: var(--secondary-color); font-weight: bold; text-decoration: underline;">Lihat
+                    Pengumuman Hasil Seleksi</a>
             </div>
 
             <!-- Application Form -->
             <div id="form-section" class="application-form">
                 <h3 style="text-align: center; margin-bottom: 20px;">Formulir Lamaran Kerja Online</h3>
-                <p style="text-align: center; margin-bottom: 20px; font-size: 0.9rem; color: #666;">Silakan isi data diri Anda dengan benar. Data akan masuk ke database HRD kami untuk diseleksi.</p>
-                
+                <p style="text-align: center; margin-bottom: 20px; font-size: 0.9rem; color: #666;">Silakan isi data
+                    diri Anda dengan benar. Data akan masuk ke database HRD kami untuk diseleksi.</p>
+
                 <form id="applicationForm">
                     <div class="form-group">
                         <label for="posisi">Posisi yang Dilamar</label>
@@ -105,14 +121,15 @@
                     <button type="submit" class="btn" style="width: 100%;">Kirim Lamaran</button>
                 </form>
             </div>
-            
+
             <div class="card" style="margin-top: 30px;">
                 <h3>Alur Proses Rekrutmen</h3>
                 <ol style="margin-left: 20px; line-height: 1.8;">
                     <li>Pelamar mengisi formulir online di atas.</li>
                     <li>Sistem otomatis mengirim data ke Email HRD.</li>
                     <li>Tim HRD melakukan seleksi administrasi.</li>
-                    <li>Kandidat terpilih akan diumumkan di halaman <strong><a href="pengumuman.html">Pengumuman</a></strong> atau dihubungi via Email/WA.</li>
+                    <li>Kandidat terpilih akan diumumkan di halaman <strong><a
+                                href="pengumuman.html">Pengumuman</a></strong> atau dihubungi via Email/WA.</li>
                     <li>Interview & Penandatanganan Kontrak Kerja.</li>
                 </ol>
             </div>
@@ -127,4 +144,5 @@
 
     <script src="assets/js/main.js"></script>
 </body>
+
 </html>
